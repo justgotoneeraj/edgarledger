@@ -178,4 +178,38 @@ p {
   margin-right: 1.3rem;
 }
 
+/* Who */
 
+#who {
+  display: flex;
+}
+
+#who div {
+  flex:1;
+}
+
+#who .who-img {
+  background:url('../images/people.jpg')no-repeat center center/cover;
+}
+.list {
+  margin:0.5rem 0;
+  list-style: none;
+}
+.list li {
+  padding:0.5rem 0;
+  border-bottom: #444 dotted 1px;
+}
+
+
+
+/* Clients */
+
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width:50%;
+}
